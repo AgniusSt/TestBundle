@@ -28,3 +28,29 @@
         }
     }
 }
+
+
+{
+	"name":        "Emokykla/TestBundle",
+	"type":        "symfony-bundle",
+	"description": "Symfony Cerad Person Bundle",
+	"keywords":    ["cerad","zayso"],
+	"homepage":    "http://github.com/cerad/PersonBundle",
+	"license":     "MIT",
+	"authors": [
+		{
+			"name": "",
+			"email": "",
+			"homepage": "http://zayso.org",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": { "TestBundle\\TestBundle\\": "" }
+	},
+	"target-dir": "Emokykla/TestBundle/TestBundle"
+}
