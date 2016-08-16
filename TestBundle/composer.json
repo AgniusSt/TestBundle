@@ -13,6 +13,7 @@
     ],
 	"homepage":    "https://github.com/AgniusSt/TestBundle",
     "require" : {
+		"AgniusSt/TestBundle:*"
     },
 	"repositories" : [{
         "type" : "vcs",
