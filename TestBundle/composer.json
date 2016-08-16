@@ -17,7 +17,7 @@
     
     "autoload": {
         "psr-4": {
-            "TestBundle\\":  "src"
+            "TestBundle\\TestBundle\\":  "src"
         }
     },
 
