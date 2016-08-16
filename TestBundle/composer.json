@@ -1,35 +1,77 @@
-    "name" : "Emokykla/TestBundle",
-    "description" : "TestBundle for Emokykla",
-    "type" : "symfony-bundle",
-    "authors" : [{
-        "name" : "Test",
-        "email" : "test@emokykla.lt"
-    }],
-    "keywords" : [
-        "Test bundle"
+{
+    "name": "AgnniusSt/TestBundle",
+    
+    "description": "Very good bundle",
+    "keywords": [
+        "Blabla",
+        "ublabla"
     ],
-    "license" : [
-        "MIT"
+    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ThaDafinser",
+            "email": "martin.keckeis1@gmail.com"
+        }
     ],
-	"homepage":    "https://github.com/AgniusSt/TestBundle",
-    "require" : {
-		"AgniusSt/TestBundle:*"
-    },
-	"repositories" : [{
-        "type" : "vcs",
-        "url" : "https://github.com/AgniusSt/TestBundle.git"
-    }],
-    "autoload" : {
-        "psr-0" : {
-            "Emokykla\\TestBundle" : ""
+    
+    "autoload": {
+        "psr-4": {
+            "TestBundle\\":  "src"
         }
     },
-    "target-dir" : "Emokykla/TestBundle",
-    "repositories" : [{
-    }],
-    "extra" : {
-    "branch-alias" : {
-            "dev-master" : "1.0"
-        }
+
+    
+    "require": {
+        "php": "~5.5|~7.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    
+    "conflict": {
+        "browscap/browscap-php": "<3.0.0-rc.1,>=4",
+        "donatj/phpuseragentparser": "<0.5,>=1",
+        "jenssegers/agent": "<2.3,>=3",
+        "mobiledetect/mobiledetectlib": "<2.7.5,>3",
+        "piwik/device-detector": "<3.6,>=4",
+        "sinergi/browser-detector": "<6,>7",
+        "ua-parser/uap-php": "<3.4.3,>=4",
+        "whichbrowser/parser": "<2.0.10,>=3",
+        "woothee/woothee": "<1.2,>=2",
+        "mimmi20/wurfl": "<1.6.4,>=2",
+        "zsxsoft/php-useragent": "<1.2,>=2"
+    },
+    
+    "suggest": {
+        "browscap/browscap-php": "Needed to use Provider\\BrowscapPhp",
+        "donatj/phpuseragentparser": "Needed to use Provider\\DonatjUAParser",
+        "jenssegers/agent": "Needed to use Provider\\JenssegersAgent",
+        "piwik/device-detector": "Needed to use Provider\\PiwikDeviceDetector",
+        "sinergi/browser-detector": "Needed to use Provider\\SinergiBrowserDetector",
+        "ua-parser/uap-php": "Needed to use Provider\\UAParser",
+        "whichbrowser/parser": "Needed to use Provider\\WhichBrowser",
+        "woothee/woothee": "Needed to use Provider\\Woothee",
+        "mimmi20/wurfl": "Needed to use Provider\\Wurfl",
+        "zsxsoft/php-useragent": "Needed to use Provider\\Zsxsoft"
+    },
+    
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.0",
+        "fabpot/php-cs-fixer": "^1.11",
+        
+        "browscap/browscap-php": "dev-master",
+        "donatj/phpuseragentparser": "^0.5.0",
+        "jenssegers/agent": "^2.3",
+        "mobiledetect/mobiledetectlib": ">2.7.5,<3",
+        "piwik/device-detector": "^3.6",
+        "sinergi/browser-detector": "^6.0",
+        "ua-parser/uap-php": ">=3.4.3,<4.0",
+        "whichbrowser/parser": ">=2.0.10,<3.0",
+        "woothee/woothee": "^1.2",
+        
+        "mimmi20/wurfl": "^1.6.4",
+        "mimmi20/wurfl-storage": "^1.0.3",
+        "mimmi20/wurfl-virtual-capability": "^1.6.4",
+        
+        "zsxsoft/php-useragent": ">=1.1,<1.2"
     }
 }
