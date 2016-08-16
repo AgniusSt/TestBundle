@@ -14,6 +14,10 @@
 	"homepage":    "https://github.com/AgniusSt/TestBundle",
     "require" : {
     },
+	"repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/AgniusSt/TestBundle.git"
+    }],
     "autoload" : {
         "psr-0" : {
             "Emokykla\\TestBundle" : ""
