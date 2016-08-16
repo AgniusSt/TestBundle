@@ -1,0 +1,30 @@
+    "name" : "Emokykla/TestBundle",
+    "description" : "TestBundle for Emokykla",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Test",
+        "email" : "test@emokykla.lt"
+    }],
+    "keywords" : [
+        "Test bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+	"homepage":    "https://github.com/AgniusSt/TestBundle",
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Emokykla\\TestBundle" : ""
+        }
+    },
+    "target-dir" : "Emokykla/TestBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0"
+        }
+    }
+}
